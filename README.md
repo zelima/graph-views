@@ -1,3 +1,9 @@
 ## README
 
-Simle line grap view for rendering data with different time series, using [Vega visualization grammar](https://vega.github.io/vega/)
+Simple line grap views for different time series data, using [Vega visualization grammar](https://vega.github.io/vega/)
+
+## Usage
+
+To view graphs: 
+- download or clone repo
+- open `graph.html` in browser
