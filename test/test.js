@@ -7,7 +7,7 @@ describe('VegaSpec', function() {
     it('Parsing works', function(){
         assert.deepEqual(vegaSpec.data[0].format.parse, {Date: 'date', Price: 'number'});
     });
-    it('Works with URL', function(){
+    it('Loads data', function(){
         assert.notEqual(vegaSpec.data[0].url, undefined);
     });
     it('Filter test works', function(){
